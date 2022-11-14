@@ -29,7 +29,7 @@
         </Border.Style>
 
         <StackPanel>
-            <TextBlock Text="{Binding Path=Day,ElementName=UC_Card}"
+            <TextBlock Text="{Binding Path=Text,ElementName=UC_Card}"
                        TextAlignment="Center"
                        FontSize="14"
                        FontWeight="SemiBold" />

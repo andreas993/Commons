@@ -11,14 +11,14 @@ namespace Common.WPF.UserControls
       InitializeComponent();
     }
 
-    public string Day
+    public string Text
     {
-      get { return (string)GetValue(DayProperty); }
-      set { SetValue(DayProperty, value); }
+      get { return (string)GetValue(TextProperty); }
+      set { SetValue(TextProperty, value); }
     }
 
-    public static readonly DependencyProperty DayProperty =
-        DependencyProperty.Register("Day", typeof(string), typeof(Card));
+    public static readonly DependencyProperty TextProperty =
+        DependencyProperty.Register("Text", typeof(string), typeof(Card));
 
 
     public string Value
