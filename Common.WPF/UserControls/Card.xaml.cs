@@ -32,14 +32,14 @@ namespace Common.WPF.UserControls
 
 
 
-    public ImageSource Source
+    public ImageSource ImageSource
     {
-      get { return (ImageSource)GetValue(SourceProperty); }
-      set { SetValue(SourceProperty, value); }
+      get { return (ImageSource)GetValue(ImageSourceProperty); }
+      set { SetValue(ImageSourceProperty, value); }
     }
 
-    public static readonly DependencyProperty SourceProperty =
-        DependencyProperty.Register("Source", typeof(ImageSource), typeof(Card));
+    public static readonly DependencyProperty ImageSourceProperty =
+        DependencyProperty.Register("ImageSource", typeof(ImageSource), typeof(Card));
 
 
   }
