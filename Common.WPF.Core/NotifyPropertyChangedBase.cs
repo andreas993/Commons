@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace Common.WPF
+namespace Common.WPF.Core
 {
     //https://onewindowsdev.com/2017/07/21/basic-mvvm-base-class-inotifypropertychanged-implementation/
     public class NotifyPropertyChangedBase : INotifyPropertyChanged

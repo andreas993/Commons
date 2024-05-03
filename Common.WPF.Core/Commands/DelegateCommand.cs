@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Windows;
 
-namespace Common.WPF
+namespace Common.WPF.Core.Commands
 {
   //https://stackoverflow.com/questions/39788539/implementing-a-custom-wpf-command
   public class DelegateCommand : ICommand
