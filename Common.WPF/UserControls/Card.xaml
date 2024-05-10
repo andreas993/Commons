@@ -33,7 +33,7 @@
                        TextAlignment="Center"
                        FontSize="14"
                        FontWeight="SemiBold" />
-            <Image Source="{Binding Path=Source,ElementName=UC_Card}"
+            <Image Source="{Binding Path=ImageSource,ElementName=UC_Card}"
                    Width="30"
                    Margin="0 10 0 10" />
             <StackPanel>
