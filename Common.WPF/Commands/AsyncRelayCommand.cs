@@ -116,15 +116,8 @@ namespace Common.WPF.Core.Commands
             _cancellationTokenSource?.Cancel();
         }
 
-        public class ExceptionEventArgs : EventArgs
+        public class ExceptionEventArgs(Exception exception) : EventArgs
         {
-            private readonly Exception exception;
-
-            public ExceptionEventArgs(Exception exception)
-            {
-                this.exception = exception;
-            }
-
             public Exception Exception { get => exception; }
         }
     }
