@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace Common.WPF.Core.Commands
+namespace Common.WPF.Commands
 {
     public class RelayCommand(Action<object?> execute, Predicate<object?>? canExecute = null) : ICommand
     {

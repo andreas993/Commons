@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace Common.WPF.Core.Commands
+namespace Common.WPF.Commands
 {
     public class AsyncRelayCommand : ICommand
     {
